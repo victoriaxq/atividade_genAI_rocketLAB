@@ -1,8 +1,3 @@
-"""
-agent.py
-Defines the Pydantic AI Agent with dependency injection (Mochilaé),
-system prompt, structured output, and ReAct tools.
-"""
 from __future__ import annotations
 
 import os
