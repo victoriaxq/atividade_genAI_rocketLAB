@@ -5,7 +5,7 @@
 
 ---
 
-## 📐 Architecture
+## Architecture
 
 ```
 atividade_genai_rocketlab/
@@ -45,7 +45,7 @@ User Question
 
 ---
 
-## 🚀 Setup
+## Setup
 
 ### Prerequisites
 
@@ -79,7 +79,7 @@ python main.py
 
 ---
 
-## 💬 Example Queries
+## Example Queries
 
 | Category | Example Question |
 |---|---|
@@ -92,7 +92,7 @@ python main.py
 
 ---
 
-## 🛡️ Guardrails
+## Guardrails
 
 - **SELECT-only**: The `DatabaseManager` rejects any non-SELECT statement at the Python level before it reaches the database.
 - **Row limit**: All queries are capped at **30 rows**.
@@ -101,7 +101,7 @@ python main.py
 
 ---
 
-## 🧩 Extending the Agent
+## Extending the Agent
 
 - **Add a tool**: Decorate an async function with `@agent.tool` in `agent.py`.
 - **Change the model**: Update `GeminiModel("gemini-2.5-flash")` in `agent.py` to `gemini-2.5-flash-lite` for lower latency.
@@ -110,7 +110,7 @@ python main.py
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 | Package | Purpose |
 |---|---|
